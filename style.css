@@ -1,5 +1,5 @@
 form{
-    border: 5px solid #f8e092;
+    border: 5px solid #e0b313f3;
 }
 input[type=text], input[type=password] {
     width: 100%;
@@ -12,7 +12,7 @@ input[type=text], input[type=password] {
 
 button {
     background-color: #dbfadc;
-    color: rgb(59,47,47);
+    color: rgb(33, 29, 27);
     padding: 14px 20px;
     margin: 8px 0;
     border: double;
@@ -50,7 +50,7 @@ span.psw {
 }
 
 .unauthorized{
-    background-color: rgb(240,24,35);
+    background-color: rgb(242, 69, 77);
 }
 
 .error{

@@ -37,7 +37,7 @@ db.get(query, function (err, row){
         res.redirect("/index.html#unauthorized")
      } else {
         console.log("ALL is good!")
-        res.send('Hello <b>' + row.title + '!</b><br /> This filecontains all your secret data: <br /><br /> SECRETS <br /><br /> MORE SECRETES <br /><br /> <a href="/index.html">Go back to login</a>')
+        res.send('Hello <b>' + row.title + '!</b><br /> This filecontains all your secret data: <br /><br /> SECRETES <br /><br /> MORE SECRETES <br /><br /> <a href="/index.html">Go back to login</a>')
 
      }
    })
